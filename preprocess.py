@@ -27,7 +27,7 @@ def warn_user(dirname):
 	'''Ask user if he's sure to create files in that directory.
 	'''
 	print('This program will create a lot of files and directories in ' + dirname)
-	answer = raw_input('Are you sure that you want to do that ? [y/n]')
+	answer = input('Are you sure that you want to do that ? [y/n]')
 	if answer != "y":
 		sys.exit(0)
 
